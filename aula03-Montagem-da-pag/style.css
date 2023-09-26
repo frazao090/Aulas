@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+
+main{
+    display: inline-block;
+}
+section {
+    display:block;
+    width: 200px;
+    
+}
+
+aside {
+    display: block;
+    margin-top: -400px;
+    margin-inline: 750px;
+    width: 350px;
+    height: 350px;
+}
