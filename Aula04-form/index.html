@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <style>
+        body{
+            display: block;
+           
+        }
+        form{
+            
+            margin-bottom: 10px;
+        }
+        label {
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        input{
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+        textarea{
+            margin-left: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+    <form action="">
+        <label for="nome">Nome:</label><br>
+        <input type="text"name = "nome" placeholder="Digite seu nome" required id="nome" required>
+        <br>
+        
+        <label for="e-mail">E-mail:</label><br>
+        <input type="email" name="e-mail" id="email"  required placeholder="Digite seu e-mail" required>
+       
+            <br>
+            <label for="texto">O que te motivou a participar do evento?</label>
+            <br>
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite seu texto aqui..." required></textarea>
+    
+        <br>
+       
+            <label for="modulo">Selecione seu módulo</label>
+            <select name="modulo" id="modulo" required>
+                <option value="">Escolher módulo</option>
+                <option value="um">Módulo 1</option>
+                <option value="dois">Módulo 2</option>
+                <option value="tres">Módulo 3</option>
+                
+            </select>
+            <br><br><br>
+          
+
+           
+                <label for="senha">Cadastre uma senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Cadastre uma senha" required>
+                <br><br>
+                <label for="Csenha">Confirme sua senha:</label>
+                <input type="password" name="Csenha" id="Csenha" placeholder="Confirme sua senha" required>
+                <br><br>
+          
+        
+            <label for="receber">Deseja receber novidades no seu email?</label>
+            <br><br>
+            <label for="Sim">Sim</label>
+            <input type="radio" value="Sim" name="receber" id="Sim">
+            <label for="Nao">Não</label>
+            <input type="radio" value="Nao" name="receber" id="Nao">
+            <br><br>
+            <button type="submit">Cadastrar</button>
+       
+        
+        </form>
+        
+    
+    
+</body>
+</html>
