@@ -1,2 +1,65 @@
 @charset "UTF-8";
 
+body{
+    background-color: gray;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+}
+div > h1{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+div > form > label, input{
+
+    margin: 5px 0px 10px 45px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#campo{
+   
+    width: 294px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #E9ECEF;
+}
+#campo:hover{
+    background-color: #DEE2E6;
+}
+#campo:focus{
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+   
+}
+
+#botao{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:  #1971C2;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#botao:hover{
+    background-color:#1864AB ;
+}
