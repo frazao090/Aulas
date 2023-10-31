@@ -105,22 +105,104 @@
 //     }
 // }
 // divisivelPorQuatro()
-let soma = 0;
-let divididoPor = 0
-let media = 0; 
+// let soma = 0;
+// let divididoPor = 0
+// let media = 0; 
 
-function paresEntreCinquentaESetenta(){
-    for(let i = 50; i <= 70; i++){
-        if(i % 2 == 0){
-            divididoPor++;
-            soma += i++;
-            media = soma / divididoPor;
-            }
-       
-    }
+// function paresEntreCinquentaESetenta(){
+//     for(let i = 50; i <= 70; i++){
+//         if(i % 2 == 0){
+//             divididoPor++;
+//             soma += i++;
+//             media = soma / divididoPor;
+//             }
+     
+//     }
+//     return media;
    
-    console.log(soma)
-    console.log(divididoPor)
-    console.log(media)
-}
-paresEntreCinquentaESetenta()
+// }
+// console.log(paresEntreCinquentaESetenta());
+
+
+// function fibonacciNumbers(ATUAL, ANTERIOR, PROXIMO){
+// ANTERIOR = 0;
+// ATUAL = 1;
+// PROXIMO = ATUAL;
+
+
+// for(let i = 0; i <= 15; i++){
+//     PROXIMO = ANTERIOR + ATUAL;
+//     ANTERIOR = ATUAL;
+//     ATUAL = PROXIMO
+//     console.log(PROXIMO)
+// }
+// return PROXIMO;
+// }
+// console.log(fibonacciNumbers())
+
+
+function fibonacciNumbers(ATUAL, ANTERIOR, PROXIMO){
+    ANTERIOR = 0;
+    ATUAL = 1;
+    PROXIMO = ATUAL;
+    
+    let listaFibonacci = [];
+    
+    for(let i = 0; i <= 15; i++){
+        listaFibonacci.push(ANTERIOR)
+        PROXIMO = ANTERIOR + ATUAL;
+        ANTERIOR = ATUAL;
+        ATUAL = PROXIMO
+        console.log(PROXIMO)
+    }
+    return listaFibonacci;
+    }
+    console.log(fibonacciNumbers())
+    
+
+
+
+
+// function isFibonacci(number) {
+//     let a = 0;
+//     let b = 1;
+//     let fib = b;
+    
+//     while (fib < number) {
+//       fib = a + b;
+//       a = b;
+//       b = fib;
+//       console.log(fib)
+//     }
+    
+//     return fib === number;
+//     }
+
+//     console.log(isFibonacci(21))
+
+// function numeroGraosTrigo(numero,soma){
+//     numero = 0;
+//     soma = 0;
+//     for(let i = 1; i <= 64; i++){
+//        numero *=2
+//        soma = numero++
+//        console.log(soma);
+//     }
+//     return soma;
+// }
+
+// console.log(numeroGraosTrigo().toLocaleString("pt-br"))
+
+// function numeroGraosTrigo(graos,soma){
+//     graos = 1;
+//     soma = 0;
+//     for(let i = 1; i <= 64; i++){
+       
+//        soma = soma + graos;
+//        graos = graos*2;
+//        console.log(soma);
+//     }
+//     return soma;
+// }
+
+// console.log(numeroGraosTrigo().toLocaleString("pt-br"))
