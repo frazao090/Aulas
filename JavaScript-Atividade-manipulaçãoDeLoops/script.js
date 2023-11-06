@@ -80,16 +80,30 @@
 
 
 
-function stringCentralizer(text, numRepeat, textRepeat){
-    let result = ` ${text} `;
+// function stringCentralizer(text, numRepeat, textRepeat){
+//     let result = ` ${text} `;
 
 
-    for(let i = 0; i < numRepeat; i++){
-        result = textRepeat + result + textRepeat;
+//     for(let i = 0; i < numRepeat; i++){
+//         result = textRepeat + result + textRepeat;
         
-    }
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
-console.log(stringCentralizer("JavaScript",8, "="))
+// console.log(stringCentralizer("JavaScript",8, "="))
+
+
+// function stringMin(string){
+//     let stringEmArray = []
+
+//     for(let i = 0; i < string.length; i++){
+//         stringEmArray.push(string[i]);
+//     }
+//     return stringEmArray
+// }
+
+// console.log(stringMin("TESTE"))
+
+
